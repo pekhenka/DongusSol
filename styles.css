@@ -1,0 +1,86 @@
+body {
+    background-color: #D1B3D7;
+    font-family: 'Chiller', Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: 'Chiller', Arial, sans-serif;
+    color: #33cc33;
+    font-size: 7em;
+    margin-top: 20px;
+    margin-bottom: -5px; 
+    letter-spacing: 5px;
+    text-shadow: 2px 2px #000;
+    animation: flashy90s 2s infinite;
+}
+
+
+@keyframes flashy90s {
+    0% {
+        color: #33cc33;
+        text-shadow: 2px 2px #000;
+    }
+    25% {
+        color: #ff33cc;
+        text-shadow: 2px 2px #333;
+    }
+    50% {
+        color: #ffcc00;
+        text-shadow: 2px 2px #666;
+    }
+    75% {
+        color: #33ccff;
+        text-shadow: 2px 2px #999;
+    }
+    100% {
+        color: #33cc33;
+        text-shadow: 2px 2px #000;
+    }
+}
+
+.links {
+    margin-top: 0px; 
+    font-size: 2em;
+    color: #000;
+    font-family: 'Chiller', Arial, sans-serif;
+    display: flex;
+    justify-content: center; 
+    gap: 40px; 
+}
+
+
+.links a {
+    text-decoration: none;
+    color: #000;
+    display: flex;
+    align-items: center;
+    font-family: 'Chiller', Arial, sans-serif;
+}
+
+.links img {
+    margin-right: 10px; 
+    width: 40px;
+    height: auto;
+}
+
+
+img.character {
+    margin-top: 50px;
+    width: 600px; 
+    height: auto;
+}
+
+
+.sell-text {
+    position: absolute;
+    top: 80%; 
+    left: 65%; /
+    font-family: 'Chiller', Arial, sans-serif;
+    font-size: 5em;
+    color: #ff3333;
+    transform: rotate(-20deg); 
+    text-shadow: 2px 2px #000;
+}
